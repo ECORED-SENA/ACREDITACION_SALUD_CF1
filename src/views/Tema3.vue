@@ -1,0 +1,220 @@
+<template lang="pug">
+.curso-main-container.introduccion
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  
+    .titulo-principal
+      .titulo-principal__numero
+        .h3 3
+      .h3 Sistema único de acreditación en salud.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+
+    .titulo-segundo.mt-5
+      #t_3_1.h4 3.1 Concepto
+
+    p.mt-4 #[strong El artículo 5 del decreto 903 de 2014 define el Sistema Único de Acreditación en Salud], como el conjunto de procesos, procedimientos y herramientas de implementación voluntaria y periódica por parte de las entidades a las que se refiere el artículo 2 del presente decreto (Artículo 2. Campo de aplicación. Las disposiciones contenidas en este decreto se aplicarán a las instituciones prestadoras de servicios de salud, a las Entidades Promotoras de Salud, a las Entidades Administradoras de Riesgos Laborales y a las Instituciones Prestadoras de Servicios de Salud que presten servicios de salud ocupacional, que voluntariamente decidan acogerse al proceso de acreditación previsto)
+
+    .row.mt-4
+      .col-9.fondo-azul-claro.p-4
+        p Estos agentes, están destinados a comprobar el cumplimiento gradual de niveles de calidad superiores a los requisitos mínimos obligatorios, para la atención en salud, bajo la dirección del Estado y la inspección, vigilancia y control de la Superintendencia Nacional de Salud.
+
+      .col-3
+
+    .row.mt-1
+      .col-9.fondo-azul-claro.p-4
+        p Dicho sistema se regirá por lo dispuesto en el presente decreto y en las normas que lo modifiquen, adicionen o sustituyan, así como por la reglamentación que, para su desarrollo e implementación, expida el Ministerio de Salud y Protección Social.
+
+      .col-3
+
+    .row.mt-1
+      .col-9.fondo-azul-claro.p-4
+        p Las entidades a que se refiere el artículo 2 deberán contar con la certificación que expida la entidad competente, del cumplimiento de los requisitos mínimos obligatorios que les aplican, como condición para acceder a la acreditación.
+
+      .col-3
+
+    .titulo-segundo.mt-5
+      #t_3_2.h4 3.2 Ruta de acreditación.
+
+
+    .mt-5.fondo-azul-claro.p-4
+      h6.text-center Qué pasos se deben seguir para alcanzar la acreditación en salud ?
+      h6.text-center El ciclo de la acreditación en salud contempla los siguientes  procesos
+
+      .text-center
+        img.mt-3(src='@/assets/curso/tema3/1.svg' style="display:inline")
+
+    .titulo-segundo.mt-5
+      #t_3_3.h4 3.3. Alcance
+
+    .row.mt-5
+      .col-auto
+        .text-center
+          img.mt-3(src='@/assets/curso/tema3/2.svg' style="display:inline")
+
+      .col.mt-3
+        p El beneficio de la acreditación tiene alcance a todo el país porque con los servicios de calidad en salud hay un posicionamiento a nivel internacional y permite la exportación de servicios de salud teniendo en cuenta que todas las entidades perteneciente al sector están obligadas a generar y suministrar los datos requeridos para el funcionamiento de este sistema, como:
+
+        .row.mt-5
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong Las Entidades Promotoras de Salud.]
+
+        .row.mt-2
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong Las Administradoras del Régimen Subsidiado.]
+        .row.mt-2
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong Las Entidades Adaptadas.]
+        .row.mt-2
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong las Empresas de Medicina Pre pagada.]
+        .row.mt-2
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong Los Prestadores de Servicios de Salud.]
+        .row.mt-2
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+          .col
+            p #[strong Las Entidades Departamentales, Distritales y Municipales de Salud.]
+
+    .titulo-segundo.mt-5
+      #t_3_4.h4 3.4. Estándares
+
+    p.mt-4 Las instituciones que se encuentren en el proceso de preparación para la acreditación deberán postularse según la resolución 5095 de 2018 con el #[strong “manual de acreditación en salud ambulatorio y hospitalario de Colombia versión 3.1”].
+
+    p.mt-3 En dicho manual se encuentran el grupo de estándares del proceso de atención al cliente asistencial, de direccionamiento, de gerencia, de talento humano, de gerencia del ambiente físico, de gerencia de la información, de gestión de la tecnología y mantenimiento de la calidad
+
+    .row.mt-5
+      .col-4.p-3.text-center(style="border-top:4px #9A4CBC solid;border-radius:4px;")
+        img.img_thumbnail(src='@/assets/curso/tema3/4.svg' style="display:inline")
+
+        p #[strong Procesos]
+
+      .col-4.p-3.text-center.fondo-azul-claro(style="border-right:2px #B0C0D2 solid;")
+        img.img_thumbnail(src='@/assets/curso/tema3/5.svg' style="display:inline")
+
+        p Procedimientos
+
+      .col-4.p-3.text-center.fondo-azul-claro
+        img.img_thumbnail(src='@/assets/curso/tema3/6.svg' style="display:inline")
+
+        p Herramientas
+
+    .row.mt-5.pb-5(style="border-bottom:2px #B0C0D2 solid;")
+
+      .col.p-5.mt-2
+        p Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que a sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente criterios porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta. 
+      .col-auto.text-center
+        img(src='@/assets/curso/tema3/7.svg' style="display:inline")
+
+    .titulo-segundo.mt-5
+      #t_3_5.h4 3.5. Entes acreditadores
+
+    p.mt-4 Según la resolución 2427 de 2014, para el sistema de acreditación en Colombia todos a aquellos que quieran ser entes acreditadores se debieron inscribir al Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC, en el Registro Especial de Acreditadores en Salud, para lo cual se le otorgará el código identifica corno entidad acreditadora a nivel nacional del Sistema Único de Acreditación en Salud.
+
+    p.h6.mt-4 #[strong Las entidades que estén interesadas en ser acreditadores en salud deben cumplir los siguientes requisitos:]
+
+    .row.mt-5
+      .col-auto
+        img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+      .col
+        p Estar acreditada por la International Society for Quality in Healthcare – ISQUA.
+
+    .row.mt-2
+      .col-auto
+        img(src='@/assets/curso/tema3/3.svg' style="display:inline")
+      .col
+        p Contar con experiencia mínima de cinco (5) años en la acreditación de entidades del sector salud en Colombia.
+
+</template>
+
+<script>
+export default {
+  name: 'Tema1',
+  data: () => ({
+    datosLineaTiempoA: [
+      {
+        ano: 'Ley 489 de 1998',
+        titulo: '',
+        texto: 'Sistemas de control interno y de desarrollo administrativo.',
+      },
+      {
+        ano: 'Ley 872 de 2003',
+        titulo:
+          'Sistema de gestion de la calidad de las entidades del Estado - Decreto 1499 de 2017',
+        texto:
+          'Herramienta de gestión transparente que permite dirigir y evaluar el desempeño instritucional, en términos de calidad y satisfacción social en la prestación de los servicios a cargo de las entidades y agentes obligados.',
+      },
+      {
+        ano: 'Decreto 4110 de 2004',
+        titulo: '',
+        texto:
+          'Departamento Administrativo de la Función Pública, decreto actualizado en 2009 utiliza a manera de modelo instrumental, el de la norma ISO 9001 de 2008 como fundamento para establecer la Norma Técnica de Calidad en la Gestión Pública- NTCGP 1000:2004 como modelo de gestión para las entidades públicas de la rama ejecutiva del poder público nacional.',
+      },
+      {
+        ano: 'Ley 1753 de 2015',
+        titulo: 'Plan nacional de desarrollo 2014-2018',
+        texto:
+          'En su capítulo 5, ordenó la integración de los sistemas de gestión de la calidad de la ley 872 de 2003 y de desarrollo administrativo de la ley 489 de 1998 en un solo sistema de gestión.',
+      },
+      {
+        ano: 'Decreto 1074 de 2015',
+        titulo: '',
+        texto:
+          'Decreto único reglamentario del sector comercio, industria y turismo.” se resalta la independencia del SOGCS del SNCA.',
+      },
+    ],
+  }),
+}
+</script>
+
+<style lang="sass">
+.fondo-azul-claro
+  background-color: #F3F9FF
+.titulo-principal__numero
+  background-color: #9A4CBC !important
+.titulo-segundo::after
+  border-left: solid 50px #9A4CBC !important
+.fondo-gris-claro
+  background-color: #E4E0FF
+.fondo-rosado
+  background-color: #F5DEFF
+.text-left
+  text-align: left !important
+.linea-tiempo-a::before
+  background: #5D4CBC !important
+.linea-tiempo-a__row::before
+  background-color: #9A4CBC !important
+.linea-tiempo-a__row::after
+  background-color: #FFFFFF !important
+.linea-tiempo-a__icon__container
+  background-color: #9A4CBC !important
+.linea-tiempo-a__icon__container::before
+  background-color: #9A4CBC !important
+.bg-1
+  background: url('../assets/curso/tema2/1.svg')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.img_thumbnail
+  width: 150px
+  height: 150px
+  display: inline
+.lista-1
+  list-style: decimal
+.lista-1 li::marker
+  font-weight: bold
+</style>
