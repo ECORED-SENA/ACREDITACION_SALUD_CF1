@@ -37,4 +37,10 @@ export default {
   &--barra-avance-open
     .curso-main-container
       padding-bottom: 80px !important
+body
+  padding-right: 0px !important
+.modal
+  z-index: 9999999 !important
+.modal-backdrop
+  z-index: 999999 !important
 </style>

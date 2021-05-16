@@ -1,9 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Acreditación en salud',
+    componenteFormativo: 'Normatividad',
     descripcionCurso:
       'El presente contenido pedagógico está dirigido a la contextualización, identificación y apropiación de la estructura y funcionamiento de los sistemas de calidad en el ámbito nacional, el cual tiene un sistema propio en el sector salud, siendo parte de un renglón económico cuyo alcance corresponde al Sistema General De Seguridad Social en Salud (SGSSS)',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -240,47 +240,75 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Ley 489 de 1998. (1998, 29 diciembre). Congreso de la República. Diario Oficial No. 43.464',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0489_1998.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Ley 872 de 2003. (2003, 30 de diciembre). Congreso de la República. Diario Oficial No. 45.418',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0872_2003.html',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ley 1753 de 2015. (2015, 9 junio). Congreso de la República. Diario Oficial No.  49.538',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1753_2015.html',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Decreto 1074 de 2015. (2015, 26 de mayo) Decreto Único Reglamentario del Sector Comercio, Industria y Turismo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76608',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Decreto 1011 de 2006. (2006, 3 abril). Ministerio de la protección social',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%201011%20DE%202006.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Resolución 1441 de 2013. (2013, 6 mayo). Ministerio de salud y Protección social',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1441-de-2013.pdf',
+    },
+    {
+      referencia:
+        'Resolución 0002003 de 2014. (2014, 28 mayo). Ministerio de salud y Protección social',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%202003%20de%202014.pdf',
+    },
+    {
+      referencia:
+        'Decreto 2082 de 2014. (2014, 29 mayo). Ministerio de salud y Protección social',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2082-de-2014.pdf',
+    },
+    {
+      referencia:
+        'Resolución 0256 de 2016. (2016, 5 febrero). Ministerio de salud y Protección social',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%200256%20de%202016.pdf',
+    },
+    {
+      referencia:
+        'Decreto 780 de 2016. (2016, 06 de mayo). Decreto Único Reglamentario del Sector Salud y Protección Social.',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
+    },
+    {
+      referencia:
+        'Resolución 5095 de 2018. (2018, 19 noviembre). Ministerio de salud y Protección social',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-5095-de-2018.pdf',
+    },
+    {
+      referencia:
+        'Decreto 4110 de 2004.  (2004, 9 diciembre). Por el cual se reglamenta la Ley 872 de 2003 y se adopta la Norma Técnica de Calidad en la Gestión Pública.',
+      link:
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1879263',
     },
   ],
   glosario: [

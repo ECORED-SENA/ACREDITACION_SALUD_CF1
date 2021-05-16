@@ -9,13 +9,11 @@
       .h3 Sistema Obligatorio de garantía de la calidad.
     
     .bg-1.p-4.row
-      .col-4.text-center.mt-5.mb-4
-        img.img_thumbnail.mt-4(src='@/assets/curso/tema2/2.svg' alt='Sistema Obligatorio de garantía de la calidad')
+      .col-4.text-center.mt-4.mb-2
+        img.img_thumbnail(src='@/assets/curso/tema2/2.svg' alt='Sistema Obligatorio de garantía de la calidad')
       .col-8.mt-4.mb-4
-        .bg-white.p-5.mt-4
-          br
+        .bg-white.p-4
           p #[strong El Decreto 1011 de 2006,] establece que el Sistema Obligatorio de Garantía de Calidad en Salud (SOGCS), es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos del sector salud para generar, mantener y mejorar la calidad de servicios de salud del país.
-          br
 
     h6.mt-5 El SOGCS está integrado por cuatro componentes a saber:
 
@@ -86,27 +84,20 @@
                   img(src='@/assets/curso/tema2/3.svg' alt='Check' width="20px" height="20px")
 
                 .col
-                  p Sistema Único de Habilitación (SUH),
+                  p Prestadores de Servicios de Salud. 
               .row.mt-2
                 .col-auto
                   img(src='@/assets/curso/tema2/3.svg' alt='Check' width="20px" height="20px")
 
                 .col
-                  p Programa de Auditoría para el Mejoramiento de la Calidad (PAMEC),
-
-              .row.mt-2
-                .col-auto
-                  img(src='@/assets/curso/tema2/3.svg' alt='Check' width="20px" height="20px")
-
-                .col
-                  p Sistema Único de Acreditación (SUA)
+                  p Empresas Administradoras de Planes de Beneficios.
 
               .row.mt-2
                 .col-auto
                   img(src='@/assets/curso/tema2/3.svg' alt='Check' width="20px" height="20px")
 
                 .col
-                  p Sistema de Información para la Calidad en Salud.
+                  p Las redes integradas de Servicios de Salud.
 
           .col-auto.text-center.p-4
             img(src='@/assets/curso/tema2/5.svg' alt='El SOGCS está integrado por cuatro componentes a saber')

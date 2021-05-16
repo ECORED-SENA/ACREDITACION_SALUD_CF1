@@ -97,28 +97,45 @@
 
     p.mt-3 En dicho manual se encuentran el grupo de estándares del proceso de atención al cliente asistencial, de direccionamiento, de gerencia, de talento humano, de gerencia del ambiente físico, de gerencia de la información, de gestión de la tecnología y mantenimiento de la calidad
 
-    .row.mt-5
-      .col-4.p-3.text-center(style="border-top:4px #9A4CBC solid;border-radius:4px;")
-        img.img_thumbnail(src='@/assets/curso/tema3/4.svg' style="display:inline")
+    TabsB.color-acento-contenido.mb-5.mt-5
+      .py-4.py-md-5(titulo="Procesos" :icono="require('@/assets/curso/tema3/4.svg')")
+        .row
+          .col.mb-4.mb-md-0
+            p.mt-4 Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que a sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente criterios porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta.
+        
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema3/7.svg', alt='')
 
-        p #[strong Procesos]
+      .py-4.py-md-5(titulo="Procedimientos" :icono="require('@/assets/curso/tema3/5.svg')")
+        .row
+          .col.mb-4.mb-md-0
+            p.mt-4 El manual está diseñado para que la evaluación se realice por medio de un proceso con las siguientes características:
+          
+            button.btn.btn-primary.mt-5(type='button' data-bs-toggle='modal' data-bs-target='#modalGrafica') Ver Grafica Manual de Diseño
 
-      .col-4.p-3.text-center.fondo-azul-claro(style="border-right:2px #B0C0D2 solid;")
-        img.img_thumbnail(src='@/assets/curso/tema3/5.svg' style="display:inline")
+            #modalGrafica.modal.fade.modal-a(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+              .modal-dialog.modal-lg
+                .modal-content
+                  .modal-header
+                    h5#exampleModalLabel.modal-title Grafica Manual de Diseño
+                    button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+                  .modal-body.text-center
+                    img(src='@/assets/curso/tema3/10.svg' style="display:inline")
+                  .modal-footer
+                    button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Cerrar
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema3/8.svg', alt='')
 
-        p Procedimientos
-
-      .col-4.p-3.text-center.fondo-azul-claro
-        img.img_thumbnail(src='@/assets/curso/tema3/6.svg' style="display:inline")
-
-        p Herramientas
-
-    .row.mt-5.pb-5(style="border-bottom:2px #B0C0D2 solid;")
-
-      .col.p-5.mt-2
-        p Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que a sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente criterios porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta. 
-      .col-auto.text-center
-        img(src='@/assets/curso/tema3/7.svg' style="display:inline")
+      .py-4.py-md-5(titulo="Herramientas" :icono="require('@/assets/curso/tema3/6.svg')")
+        .row
+          .col.mb-4.mb-md-0
+            p.mt-4 Se toma como herramienta para la evaluación de los estándares para la postulación para obtener la acreditación, el manual de acreditación en salud ambulatoria y hospitalario de Colombia versión 3.1
+        
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema3/9.svg', alt='')
 
     .titulo-segundo.mt-5
       #t_3_5.h4 3.5. Entes acreditadores
@@ -139,49 +156,20 @@
       .col
         p Contar con experiencia mínima de cinco (5) años en la acreditación de entidades del sector salud en Colombia.
 
+
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
+  name: 'Tema3',
   data: () => ({
-    datosLineaTiempoA: [
-      {
-        ano: 'Ley 489 de 1998',
-        titulo: '',
-        texto: 'Sistemas de control interno y de desarrollo administrativo.',
-      },
-      {
-        ano: 'Ley 872 de 2003',
-        titulo:
-          'Sistema de gestion de la calidad de las entidades del Estado - Decreto 1499 de 2017',
-        texto:
-          'Herramienta de gestión transparente que permite dirigir y evaluar el desempeño instritucional, en términos de calidad y satisfacción social en la prestación de los servicios a cargo de las entidades y agentes obligados.',
-      },
-      {
-        ano: 'Decreto 4110 de 2004',
-        titulo: '',
-        texto:
-          'Departamento Administrativo de la Función Pública, decreto actualizado en 2009 utiliza a manera de modelo instrumental, el de la norma ISO 9001 de 2008 como fundamento para establecer la Norma Técnica de Calidad en la Gestión Pública- NTCGP 1000:2004 como modelo de gestión para las entidades públicas de la rama ejecutiva del poder público nacional.',
-      },
-      {
-        ano: 'Ley 1753 de 2015',
-        titulo: 'Plan nacional de desarrollo 2014-2018',
-        texto:
-          'En su capítulo 5, ordenó la integración de los sistemas de gestión de la calidad de la ley 872 de 2003 y de desarrollo administrativo de la ley 489 de 1998 en un solo sistema de gestión.',
-      },
-      {
-        ano: 'Decreto 1074 de 2015',
-        titulo: '',
-        texto:
-          'Decreto único reglamentario del sector comercio, industria y turismo.” se resalta la independencia del SOGCS del SNCA.',
-      },
-    ],
+    modal1: false,
+    modal2: false,
   }),
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 .fondo-azul-claro
   background-color: #F3F9FF
 .titulo-principal__numero
@@ -217,4 +205,10 @@ export default {
   list-style: decimal
 .lista-1 li::marker
   font-weight: bold
+.tabs-b__tab
+  background-color: #F3F9FF !important
+  border-right: 1px solid #B0C0D2
+  border-bottom: 1px solid #B0C0D2
+.tabs-b
+  border-bottom: 1px solid #B0C0D2 !important
 </style>

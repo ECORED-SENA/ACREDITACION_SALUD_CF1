@@ -4,7 +4,7 @@ import router from './router'
 import store from '../node_modules/ecored-base-pkg/src/store/index.js'
 
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import 'bootstrap'
+import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './styles/_styles.sass'

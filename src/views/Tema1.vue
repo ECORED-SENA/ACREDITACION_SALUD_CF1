@@ -14,43 +14,43 @@
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema11.svg' alt='Expedición de reglamentos técnicos')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema11.svg' alt='Expedición de reglamentos técnicos' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Expedición de reglamentos técnicos
             p “Condiciones obligatorias de calidad para controlar los riesgos que puedan afectar la vida, salud, seguridad nacional, medio ambiente e información a los consumidores”
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema12.svg' alt='Normalización')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema12.svg' alt='Normalización' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Normalización
             p Adopción de normas para la elaboración de productos, definen propiedades y características métodos de producción o proceso para uso común, son de naturaleza voluntaria
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema13.svg' alt='Acreditación')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema13.svg' alt='Acreditación' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Acreditación
             p Evalúa la competencia técnica de los organismos de certificación y de inspección, laboratorios de ensayo y calibración.
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema14.svg' alt='Designación')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema14.svg' alt='Designación' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Designación
             p Autorización gubernamental para que un organismo controle y evalué la conformidad
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema15.svg' alt='Evaluación de la conformidad')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema15.svg' alt='Evaluación de la conformidad' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Evaluación de la conformidad
             p Procedimiento para determinar el grado de cumplimiento de una Norma o guía técnica (Inspección, Prueba, Calibración, certificación, verificación)
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema16.svg' alt='Metrología')
-          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4
+          img(src='@/assets/curso/tema16.svg' alt='Metrología' style="width:auto;height:auto;")
+          .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Metrología
             p Ciencia que estudia las mediciones, garantía de medidas exactas y confiables, que se pueden verificar y garantizar
 
@@ -83,23 +83,19 @@
 
       .row.mt-3
         .col-3.text-center
-          .p-5.fondo-rosado
+          .p-5.fondo-rosado(style="min-height:190px;")
             strong Entidades Departamentales y Distritales de Salud.
-          .fondo-azul-claro.p-3
+          .fondo-azul-claro.p-3(style="min-height:370px;")
             .text-center
               img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
               img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
 
             p.text-left.mt-2.mb-3 Brindar asistencia técnica para implementar la Auditoria para el Mejoramiento de la Calidad de la Atención de Salud y realizar las auditorías a los Prestadores de Servicios de Salud de su jurisdicción.
-            br
 
         .col-3.text-center
-          .p-5.fondo-rosado
-            br
+          .p-5.fondo-rosado(style="min-height:190px;")
             strong Superintendencia Nacional de Salud
-            br
-            br
-          .fondo-azul-claro.p-3
+          .fondo-azul-claro.p-3(style="min-height:370px;")
             .text-center
               img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
               img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
@@ -107,33 +103,24 @@
             p.text-left.mt-2.mb-3 Les corresponde cumplir y hacer cumplir en sus respectivas jurisdicciones, divulgar las disposiciones de la norma, brindar asistencia a los Prestadores de Servicios de Salud relativo a la habilitación de las mismas.
 
         .col-3.text-center
-          .p-5.fondo-rosado
-            br
+          .p-5.fondo-rosado(style="min-height:190px;")
             strong Entidades Municipales de Salud.
-          .fondo-azul-claro.p-3
+          .fondo-azul-claro.p-3(style="min-height:370px;")
             .text-center
               img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
               img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
 
             p.text-left.mt-2.mb-3 Ejercerá las funciones de vigilancia, inspección y control dentro del SOGCS y aplicará las sanciones en el ámbito de su competencia
-            br
-            br
-            br
-            br
 
         .col-3.text-center
-          .p-5.fondo-rosado
-            br
+          .p-5.fondo-rosado(style="min-height:190px;")
             strong Ministerio de la Protección Social
-            br
-            br
-          .fondo-azul-claro.p-3
+          .fondo-azul-claro.p-3(style="min-height:370px;")
             .text-center
               img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
               img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
 
             p.text-left.mt-2.mb-3 Desarrolla las normas de calidad. Expide reglamentación. Vela por la permanente actualizacion. Binda asistencia tecnica. Emite conseptos tecnicos compatibilidad con otros sistemas 
-            br
 
       .text-right(style='position: relative;left: -13px;')
         img.mt-2(src='@/assets/curso/tema24.svg' alt='flecha')
@@ -142,25 +129,21 @@
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src='@/assets/curso/tema20.svg' alt='Auditoria' width="100px" height="100px")
-            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4
+            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
               .h4.text-center.text-dark #[strong.text-dark Auditoria]
               p.text-dark “Guías básicas para auditoria en el mejoramiento de la calidad”
-              br
-              br
-              br
-              br
 
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src='@/assets/curso/tema21.svg' alt='Sistema de información' width="100px" height="100px")
-            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4
+            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
               .h4.text-center.text-dark #[strong.text-dark Sistema de información]
               p.text-dark #[strong.text-dark Resolución 256 de 2016] #[br] “Por la cual se dictan disposiciones en relación con el Sistema de Información para la Calidad y se establecen los indicadores para el monitoreo de la calidad en salud” – anexos para el reporte de información
       .row
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src='@/assets/curso/tema22.svg' alt='Acreditación' width="100px" height="100px")
-            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4
+            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
               .h4.text-center.text-dark #[strong.text-dark Acreditación]
               p.text-dark #[strong.text-dark Decreto 903 de 2014] “Por el cual se dictan las disposiciones en relación con el Sistema Único de acreditación en Salud”.
               p.text-dark #[strong.text-dark Resolución 2082 de 2014] Por la cual se dictan disposiciones para la operatividad del Sistema Único de Acreditación en Salud.
@@ -169,12 +152,10 @@
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src='@/assets/curso/tema23.svg' alt='Habilitación' width="100px" height="100px")
-            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4
+            .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
               .h4.text-center.text-dark #[strong.text-dark Habilitación]
               p.text-dark #[strong.text-dark Resolución 3100 de 2019] “Por la cual se definen los procedimientos y condiciones de inscripción de los Prestadores de Servicios de Salud y de habilitación de servicios de salud”
               p.text-dark #[strong.text-dark Resolución 1441 de 2013] #[br] “Manual de Habilitación de Servicios de Salud”
-              br
-              br
 
       .mt-5.text-center
         h6 Sistemas públicos de gestión y el desarrollo del sistema #[br] administrativo Ley 489 de 1998
@@ -247,4 +228,9 @@ export default {
 	background-color: #9A4CBC !important
 .linea-tiempo-a__icon__container::before
 	background-color: #9A4CBC !important
+.linea-tiempo-a__content span
+  max-width: 100%
+.linea-tiempo-a__text
+  background-color: #F3F9FF
+  padding: 16px
 </style>
