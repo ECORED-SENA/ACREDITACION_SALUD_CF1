@@ -6,11 +6,11 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 3
-      .h3 Sistema único de acreditación en salud.
+      .h3 Sistema único de acreditación en salud
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/K8kKm1DwHPY?list=PLkc5n6npRWkjeKyZAukb0KCO4qFB-r4ZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
 
     .titulo-segundo.mt-5
@@ -19,30 +19,24 @@
     p.mt-4 #[strong El artículo 5 del decreto 903 de 2014 define el Sistema Único de Acreditación en Salud], como el conjunto de procesos, procedimientos y herramientas de implementación voluntaria y periódica por parte de las entidades a las que se refiere el artículo 2 del presente decreto (Artículo 2. Campo de aplicación. Las disposiciones contenidas en este decreto se aplicarán a las instituciones prestadoras de servicios de salud, a las Entidades Promotoras de Salud, a las Entidades Administradoras de Riesgos Laborales y a las Instituciones Prestadoras de Servicios de Salud que presten servicios de salud ocupacional, que voluntariamente decidan acogerse al proceso de acreditación previsto)
 
     .row.mt-4
-      .col-9.fondo-azul-claro.p-4
+      .col-md-9.fondo-azul-claro.p-4
         p Estos agentes, están destinados a comprobar el cumplimiento gradual de niveles de calidad superiores a los requisitos mínimos obligatorios, para la atención en salud, bajo la dirección del Estado y la inspección, vigilancia y control de la Superintendencia Nacional de Salud.
 
-      .col-3
-
     .row.mt-1
-      .col-9.fondo-azul-claro.p-4
+      .col-md-9.fondo-azul-claro.p-4
         p Dicho sistema se regirá por lo dispuesto en el presente decreto y en las normas que lo modifiquen, adicionen o sustituyan, así como por la reglamentación que, para su desarrollo e implementación, expida el Ministerio de Salud y Protección Social.
 
-      .col-3
-
     .row.mt-1
-      .col-9.fondo-azul-claro.p-4
+      .col-md-9.fondo-azul-claro.p-4
         p Las entidades a que se refiere el artículo 2 deberán contar con la certificación que expida la entidad competente, del cumplimiento de los requisitos mínimos obligatorios que les aplican, como condición para acceder a la acreditación.
 
-      .col-3
-
     .titulo-segundo.mt-5
-      #t_3_2.h4 3.2 Ruta de acreditación.
+      #t_3_2.h4 3.2 Ruta.
 
 
     .mt-5.fondo-azul-claro.p-4
-      h6.text-center Qué pasos se deben seguir para alcanzar la acreditación en salud ?
-      h6.text-center El ciclo de la acreditación en salud contempla los siguientes  procesos
+      h6.text-center ¿Qué pasos se deben seguir para alcanzar la acreditación en salud?
+      p.text-center El ciclo de la acreditación en salud contempla los siguientes  procesos
 
       .text-center
         img.mt-3(src='@/assets/curso/tema3/1.svg' style="display:inline")
@@ -78,7 +72,7 @@
           .col-auto
             img(src='@/assets/curso/tema3/3.svg' style="display:inline")
           .col
-            p #[strong las Empresas de Medicina Pre pagada.]
+            p #[strong las Empresas de Medicina Prepagada.]
         .row.mt-2
           .col-auto
             img(src='@/assets/curso/tema3/3.svg' style="display:inline")
@@ -95,24 +89,25 @@
 
     p.mt-4 Las instituciones que se encuentren en el proceso de preparación para la acreditación deberán postularse según la resolución 5095 de 2018 con el #[strong “manual de acreditación en salud ambulatorio y hospitalario de Colombia versión 3.1”].
 
-    p.mt-3 En dicho manual se encuentran el grupo de estándares del proceso de atención al cliente asistencial, de direccionamiento, de gerencia, de talento humano, de gerencia del ambiente físico, de gerencia de la información, de gestión de la tecnología y mantenimiento de la calidad
+    p.mt-3 En dicho manual se encuentran el grupo de estándares del proceso de atención al cliente asistencial, de direccionamiento, de gerencia, de gerencia de talento humano, de gerencia del ambiente físico, de gerencia de la información, de gestión de la tecnología y mantenimiento de la calidad.
 
     TabsB.color-acento-contenido.mb-5.mt-5
       .py-4.py-md-5(titulo="Procesos" :icono="require('@/assets/curso/tema3/4.svg')")
         .row
-          .col.mb-4.mb-md-0
-            p.mt-4 Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que a sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente criterios porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta.
+          .col-md-8.mb-4.mb-md-0
+            p.mt-4.p-5 Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que ha sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente, porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta.
         
-          .col-auto
+          .col-md-4
             figure
               img(src='@/assets/curso/tema3/7.svg', alt='')
 
       .py-4.py-md-5(titulo="Procedimientos" :icono="require('@/assets/curso/tema3/5.svg')")
         .row
-          .col.mb-4.mb-md-0
-            p.mt-4 El manual está diseñado para que la evaluación se realice por medio de un proceso con las siguientes características:
+          .col-md-8.mb-4.mb-md-0
+            p.mt-4.p-5 El manual está diseñado para que la evaluación se realice por medio de un proceso con las siguientes características:
           
-            button.btn.btn-primary.mt-5(type='button' data-bs-toggle='modal' data-bs-target='#modalGrafica') Ver Grafica Manual de Diseño
+            .p-5
+              button.btn.btn-primary(type='button' data-bs-toggle='modal' data-bs-target='#modalGrafica') Procedimientos
 
             #modalGrafica.modal.fade.modal-a(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
               .modal-dialog.modal-lg
@@ -124,23 +119,23 @@
                     img(src='@/assets/curso/tema3/10.svg' style="display:inline")
                   .modal-footer
                     button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Cerrar
-          .col-auto
+          .col-md-4
             figure
               img(src='@/assets/curso/tema3/8.svg', alt='')
 
       .py-4.py-md-5(titulo="Herramientas" :icono="require('@/assets/curso/tema3/6.svg')")
         .row
-          .col.mb-4.mb-md-0
-            p.mt-4 Se toma como herramienta para la evaluación de los estándares para la postulación para obtener la acreditación, el manual de acreditación en salud ambulatoria y hospitalario de Colombia versión 3.1
+          .col-md-8.mb-4.mb-md-0
+            p.mt-4.p-5 Se toma como herramienta para la evaluación de los estándares en la postulación para obtener la acreditación, el manual de acreditación en salud ambulatoria y hospitalario de Colombia versión 3.1
         
-          .col-auto
+          .col-md-4
             figure
               img(src='@/assets/curso/tema3/9.svg', alt='')
 
     .titulo-segundo.mt-5
       #t_3_5.h4 3.5. Entes acreditadores
 
-    p.mt-4 Según la resolución 2427 de 2014, para el sistema de acreditación en Colombia todos a aquellos que quieran ser entes acreditadores se debieron inscribir al Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC, en el Registro Especial de Acreditadores en Salud, para lo cual se le otorgará el código identifica corno entidad acreditadora a nivel nacional del Sistema Único de Acreditación en Salud.
+    p.mt-4 Según la resolución 2427 de 2014, para el sistema de acreditación en Colombia todos  aquellos que quieran ser entes acreditadores se deben inscribir al Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC, en el Registro Especial de Acreditadores en Salud, para lo cual se le otorgará el código identifica como entidad acreditadora a nivel nacional del Sistema Único de Acreditación en Salud.
 
     p.h6.mt-4 #[strong Las entidades que estén interesadas en ser acreditadores en salud deben cumplir los siguientes requisitos:]
 

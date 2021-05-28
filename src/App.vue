@@ -43,4 +43,6 @@ body
   z-index: 9999999 !important
 .modal-backdrop
   z-index: 999999 !important
+.banner-principal__img img
+    max-width: 282px !important
 </style>

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Normatividad',
     descripcionCurso:
-      'El presente contenido pedagógico está dirigido a la contextualización, identificación y apropiación de la estructura y funcionamiento de los sistemas de calidad en el ámbito nacional, el cual tiene un sistema propio en el sector salud, siendo parte de un renglón económico cuyo alcance corresponde al Sistema General De Seguridad Social en Salud (SGSSS)',
+      'El presente contenido pedagógico está dirigido a la contextualización, identificación y apropiación de la estructura y funcionamiento de los sistemas de calidad en el ámbito nacional el cual tiene un sistema propio en el sector salud, siendo parte de un renglón económico cuyo alcance corresponde al Sistema General de Seguridad Social en Salud (SGSSS)',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -30,13 +30,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Concepto',
-            hash: '',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Relación con otras normas de calidad',
-            hash: 't_1_1',
+            hash: 't_1_2',
           },
         ],
       },
@@ -148,60 +148,44 @@ export default {
     },
     contenidoInstruccional: [
       {
-        nombre: 'Gloria Matilde Lee Mejía',
-        cargo: 'Responsable del equipo',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
-      },
-      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        nombre: 'Néstor Omar Correa Preciado',
+        cargo: 'Expertos temáticos.',
+        centro: 'Ministerio de Salud',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
+        nombre: 'Cesar Roberto Ocaña Poveda',
+        cargo: 'Asesor oficina calidad',
+        centro: 'Ministerio de Salud',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
+        nombre: 'Jessica Lozano',
+        cargo: 'Ministerio de Salud y Protección Social.',
+        centro: 'Ministerio de Salud',
       },
       {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
+        nombre: 'María Fernanda Moreno Brand',
+        cargo: 'Profesionales Especializados SENA',
+        centro: 'Centro de Formación de Talento Humano en Salud',
       },
       {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
+        nombre: 'Viviana Ruíz Vergara',
+        cargo: 'Profesionales Especializados SENA',
+        centro: 'Centro de Formación de Talento Humano en Salud',
       },
       {
-        nombre: 'Liliana Victoria Morales Gualdrón',
+        nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial',
       },
       {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -216,12 +200,52 @@ export default {
         cargo: 'Integración de recursos y pruebas',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: 'Carlos Julián Ramírez Benítez',
+        cargo: 'Diseño web y Producción audiovisual',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Maria Carolina Tamayo',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Víctor Cardenas',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Carmen Martinez',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Arnulfo Beltrán Mojica',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Andrés Herrera',
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -230,9 +254,12 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: [
+          'Validación y vinculación en plataforma LMS',
+          'Vinculación de recursos',
+        ],
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -313,49 +340,49 @@ export default {
   ],
   glosario: [
     {
-      termino: 'ATENCIÓN DE SALUD',
+      termino: 'Atención de Salud',
       significado:
         'Se define como el conjunto de servicios que se prestan al usuario en el marco de los procesos propios del aseguramiento, así como de las actividades, procedimientos e intervenciones asistenciales en las fases de promoción y prevención, diagnóstico, tratamiento y rehabilitación que se prestan a toda la población.',
     },
     {
       termino:
-        'AUDITORÍA PARA EL MEJORAMIENTO DE LA CALIDAD DE LA ATENCIÓN DESALUD.',
+        'Auditoría para el mejoramiento de la calidad de la atención de salud',
       significado:
         'Es el mecanismo sistemático y continuo de evaluación y mejoramiento de la calidad observada respecto de la calidad esperada de la atención de salud que reciben los usuarios.',
     },
     {
-      termino: 'CALIDAD DE LA ATENCIÓN DE SALUD.',
+      termino: 'Calidad de la atención de salud',
       significado:
         'Se entiende como la provisión de servicios de salud a los usuarios individuales y colectivos de manera accesible y equitativa, a través de un nivel profesional óptimo, teniendo en cuenta el balance entre beneficios, riesgos y costos, con el propósito de lograr la adhesión y satisfacción de dichos usuarios. ',
     },
     {
-      termino: 'CONDICIONES DE CAPACIDAD TECNOLÓGICA Y CIENTÍFICA',
+      termino: 'Condiciones de capacidad tecnológica y científica',
       significado:
         'Son los requisitos básicos de estructura y de procesos que deben cumplir los Prestadores de Servicios de Salud por cada uno de los servicios que prestan y que se consideran suficientes y necesarios para reducir los principales riesgos que amenazan la vida o la salud de los usuarios en el marco de la prestación del servicio de salud',
     },
     {
-      termino: 'EMPRESAS ADMINISTRADORAS DE PLANES DE BENEFICIOS. -EAPB-',
+      termino: 'Empresas administradoras de planes de beneficios. -EAPB-',
       significado:
         'Se consideran como tales, las Entidades Promotoras de Salud del Régimen Contributivo y del Régimen Subsidiado (Administradoras del Régimen Subsidiado), Entidades Adaptadas y Empresas de Medicina Prepagada.',
     },
     {
-      termino: 'PRESTADORES DE SERVICIOS DE SALUD.',
+      termino: 'Prestadores de servicios de salud',
       significado:
         'Se consideran como tales, las Instituciones Prestadoras de Servicios de Salud, los Profesionales Independientes de Salud y los Servicios de Transporte Especial de Pacientes.',
     },
     {
-      termino: 'PROFESIONAL INDEPENDIENTE',
+      termino: 'Profesional independiente',
       significado:
         'Es toda persona natural egresada de un programa de educación superior de ciencias de la salud de conformidad con la Ley 30 de 1992 o las normas que la modifiquen, adicionen o sustituyan, con facultades para actuar de manera autónoma en la prestación del servicio de salud para lo cual podrá contar con personal de apoyo de los niveles de formación técnico y/o auxiliar',
     },
     {
       termino:
-        'SISTEMA OBLIGATORIO DE GARANTÍA DE CALIDAD DE ATENCIÓN EN SALUD DEL SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD -SOGCS-',
+        'Sistema obligatorio de garantía de calidad de atención en salud del sistema general de seguridad social en salud -SOGCS-',
       significado:
         'Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.',
     },
     {
-      termino: 'UNIDAD SECTORIAL DE NORMALIZACIÓN EN SALUD.',
+      termino: 'Unidad sectorial de normalización en salud',
       significado:
         'Es una instancia técnica para la investigación, definición, análisis y concertación de normas técnicas y estándares de calidad de la atención de salud, autorizada por el Ministerio de Comercio, Industria y Turismo.',
     },
