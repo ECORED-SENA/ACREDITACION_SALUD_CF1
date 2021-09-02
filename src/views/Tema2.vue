@@ -50,15 +50,14 @@
 
       .col-auto.text-center
         img(src='@/assets/curso/tema2/4.svg' alt='El SOGCS está integrado por cuatro componentes a saber')
-
+    br
     .titulo-segundo.mt-5
         #t_2_1.h4 2.1 Concepto
 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/qyv2TgsPchk?list=PLkc5n6npRWkjeKyZAukb0KCO4qFB-r4ZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-
+    br
     .titulo-segundo.mt-5
         #t_2_2.h4 2.2 Componentes
 
@@ -120,7 +119,7 @@
           .col-md-8
             .p-4
               ol.lista-1
-                li.mt-3 Autoevaluación
+                li.mt-3 Autoevaluación.
                 li.mt-3 Selección de procesos a mejorar.
                 li.mt-3 Priorización de procesos.
                 li.mt-3 Selección de procesos a mejorar.
@@ -173,7 +172,7 @@
         img.img_thumbnail(src='@/assets/curso/tema2/8.svg' style="display:inline" alt='')
 
     .titulo-segundo.mt-5
-        #t_2_3.h4 2.3 Relación con el subsistema nacional de calidad.
+        #t_2_3.h4 2.3 Relación con el subsistema nacional de calidad
 
     .row.mt-5
       .col-auto.text-center

@@ -31,7 +31,7 @@
           img(src='@/assets/curso/tema13.svg' alt='Acreditación' style="width:auto;height:auto;")
           .tarjeta.tarjeta--azul.fondo-azul-claro.p-4(style="min-height:220px;")
             .h4 Acreditación
-            p Evalúa la competencia técnica de los organismos de certificación y de inspección, laboratorios de ensayo y calibración.
+            p Evalúa la competencia técnica de los organismos de certificación y de inspección, laboratorios de ensayo y calibración (SNCA).
 
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
@@ -54,8 +54,9 @@
             .h4 Metrología
             p Ciencia que estudia las mediciones, garantía de medidas exactas y confiables, que se pueden verificar y garantizar.
 
-    figcaption.mt-2.text-center Subsistema Nacional de Calidad SNCA
+    figcaption.mt-2 Subsistema Nacional de Calidad SNCA
 
+    br
     .titulo-segundo.mt-5
       #t_1_1.h4 1.1 Concepto
 
@@ -66,19 +67,20 @@
     p.mt-3 Gracias a lo establecido en la ley 100 de 1993, bases del Sistema General de Seguridad Social en Salud (SGSSS) plantea la accesibilidad, oportunidad, seguridad, pertinencia y continuidad en salud, para toda la población colombiana con calidad, impulsando la creación del Sistema Obligatorio de la Garantía de la Calidad (SOGCS) con sus 4 componentes, como se presenta en el siguiente gráfico.
 
     .row
-      .col-8
-        h4.mt-5.text-center.font-weight-bold Cuadro SOGCS
-      .col-4
-        h4.mt-5.text-center.font-weight-bold SGSSS
+      .col-9
+        h4.mt-5.text-center.font-weight-bold(style="background-color: #42e0e6;padding: 10px;color: #17263f;") SOGCS
+      .col-3
+        h4.mt-5.text-center.font-weight-bold(style="background-color: #42e0e6;padding: 10px;color: #17263f;") SGSSS
 
     .text-center
-      img(src='@/assets/curso/tema17.svg' alt='Cuadro SOGCS')
-      figcaption.mt-2 Componentes del Sistema Obligatorio de la Garantía de la Calidad
+      img(src='@/assets/curso/tema17.svg' alt='SOGCS')
+      figcaption.mt-2.text-left Componentes del Sistema Obligatorio de la Garantía de la Calidad
 
     p.mt-5 Entre los aspectos a resaltar están la independencia del Sistema obligatorio de garantía de calidad de la atención en salud, respecto al Subsistema nacional de calidad y establece lineamientos para armonizar las funciones entre los Ministerios de Comercio Industria y Turismo y el de Salud y Protección Social, #[strong #[em garantizando la coordinación del Subsistema Nacional de la Calidad y el Sistema Obligatorio de Garantía de Calidad de la Atención en Salud]], teniendo en cuenta aspectos como evitar conflictos de interés por la participación del ICONTEC – Organismo Nacional de Normalización,  en ambos sistemas y desarrollar reglamentos técnicos y normas voluntarias para el sector salud. Por tal motivo se debe destacar que el Ministerio de Salud y Protección Social hace parte de la Comisión Nacional de Competitividad e Innovación.
 
     p.mt-4 El propósito es obligar a los agentes al cumplimiento de unos requisitos obligatorios y esenciales, los cuales deben evolucionar a través de la medición y la mejora continua que actúa como principio, para así llegar a estándares de calidad superior y que residen en la Acreditación.
 
+    br
     .titulo-segundo.mt-5
       #t_1_2.h4 1.2  Relación con otras normas de calidad
 
@@ -86,95 +88,35 @@
 
     p.mt-3 El director natural del SOGC es el Ministerio de Salud y Protección Social de acuerdo con el ordenamiento y sus competencias. Del mismo modo las Direcciones Territoriales de Salud y la Superintendencia Nacional de Salud, con relación a los cuatro componentes del SOGC ejercen la inspección, vigilancia y control del sistema; para su entendimiento se relacionan a continuación con la normatividad correspondiente:
 
-    h5.text-center.font-weight-bold.mt-5 SOGC DECRETO 1011 de 2016 Modificación en el decreto 780 de 2016
+    .tarjeta.text-white.p-5.mt-4(style="background: linear-gradient(180deg,#9a4cbc,#5d4cbc);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/pdf.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 SOGC DECRETO 1011 de 2016 Modificación en el decreto 780 de 2016
+              p Entidades responsables del funcionamiento  
+            .col-sm-auto
+              a.boton.boton--b(:href="obtenerLink('downloads/Infografía-Acreditación-en-Salud1.pdf')" target="_blank" style="background-color:#42E0E6;color:#12263f!important;")
+                span(style="color:#12263f!important;") Ver infografía
+                i.fas.fa-file-download(style="color:#12263f!important;")
 
-    .text-center
-      .mt-3.p-3.fondo-gris-claro.col-md-5.m-auto
-        strong Entidades Responsables del Funcionamiento
+    //LineaTiempoA.mb-5(:datos="datosLineaTiempoA")
 
-    .row.mt-3
-      .col-md-3.text-center
-        .p-5.fondo-rosado(style="min-height:190px;")
-          strong Entidades Departamentales y Distritales de Salud.
-        .fondo-azul-claro.p-3(style="min-height:370px;")
-          .text-center
-            img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
-            img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
-
-          p.text-left.mt-2.mb-3 Brindar asistencia técnica para implementar la Auditoria para el Mejoramiento de la Calidad de la Atención de Salud y realizar las auditorías a los Prestadores de Servicios de Salud de su jurisdicción.
-
-      .col-md-3.text-center.mb-3
-        .p-5.fondo-rosado(style="min-height:190px;")
-          strong Superintendencia Nacional de Salud
-        .fondo-azul-claro.p-3(style="min-height:370px;")
-          .text-center
-            img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
-            img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
-
-          p.text-left.mt-2.mb-3 Les corresponde cumplir y hacer cumplir en sus respectivas jurisdicciones, divulgar las disposiciones de la norma, brindar asistencia a los Prestadores de Servicios de Salud relativo a la habilitación de las mismas.
-
-      .col-md-3.text-center.mb-3
-        .p-5.fondo-rosado(style="min-height:190px;")
-          strong Entidades Municipales de Salud.
-        .fondo-azul-claro.p-3(style="min-height:370px;")
-          .text-center
-            img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
-            img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
-
-          p.text-left.mt-2.mb-3 Ejercerá las funciones de vigilancia, inspección y control dentro del SOGCS y aplicará las sanciones en el ámbito de su competencia
-
-      .col-md-3.text-center.mb-3
-        .p-5.fondo-rosado(style="min-height:190px;")
-          strong Ministerio de la Protección Social
-        .fondo-azul-claro.p-3(style="min-height:370px;")
-          .text-center
-            img.mb-2(src='@/assets/curso/tema18.svg' alt='Flecha' width='40px' height='40px')
-            img(src='@/assets/curso/tema19.svg' alt='Flecha' width='40px' height='40px')
-
-          p.text-left.mt-2.mb-3 Desarrolla las normas de calidad. Expide reglamentación. Vela por la permanente actualizacion. Binda asistencia tecnica. Emite conseptos tecnicos compatibilidad con otros sistemas
-
-    figcaption.text-center.mt-1 componentes del SOGC
-
-    .text-right
-      img.mt-2(src='@/assets/curso/tema24.svg' alt='flecha')
-
-    .row.mt-5
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema20.svg' alt='Auditoria' width="100px" height="100px")
-          .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
-            .h4.text-center.text-dark #[strong.text-dark Auditoria]
-            p.text-dark “Guías básicas para auditoria en el mejoramiento de la calidad”
-
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema21.svg' alt='Sistema de información' width="100px" height="100px")
-          .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
-            .h4.text-center.text-dark #[strong.text-dark Sistema de información]
-            p.text-dark #[strong.text-dark Resolución 256 de 2016] #[br] “Por la cual se dictan disposiciones en relación con el Sistema de Información para la Calidad y se establecen los indicadores para el monitoreo de la calidad en salud” – anexos para el reporte de información
-    .row
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema22.svg' alt='Acreditación' width="100px" height="100px")
-          .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
-            .h4.text-center.text-dark #[strong.text-dark Acreditación]
-            p.text-dark #[strong.text-dark Decreto 903 de 2014] “Por el cual se dictan las disposiciones en relación con el Sistema Único de acreditación en Salud”.
-            p.text-dark #[strong.text-dark Resolución 2082 de 2014] Por la cual se dictan disposiciones para la operatividad del Sistema Único de Acreditación en Salud.
-            p.text-dark #[strong.text-dark Resolución 5095 de 2018] “Por la cual se adopta el Manual de Acreditación en Salud Ambulatorio y Hospitalario de Colombia Versión 3.1”
-
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema23.svg' alt='Habilitación' width="100px" height="100px")
-          .tarjeta.tarjeta--morada.fondo-azul-claro.p-4(style="min-height:320px")
-            .h4.text-center.text-dark #[strong.text-dark Habilitación]
-            p.text-dark #[strong.text-dark Resolución 3100 de 2019] “Por la cual se definen los procedimientos y condiciones de inscripción de los Prestadores de Servicios de Salud y de habilitación de servicios de salud”
-            p.text-dark #[strong.text-dark Resolución 1441 de 2013] #[br] “Manual de Habilitación de Servicios de Salud”
-
-    .mt-5.text-center
-      h5 Sistemas públicos de gestión y el desarrollo del sistema #[br] administrativo Ley 489 de 1998
-      h6.mt-3.mb-5 #[b Organización y funcionamiento de las entidades del orden nacional]
-
-    LineaTiempoA.mb-5(:datos="datosLineaTiempoA")
+    .tarjeta.text-white.p-5.mt-4(style="background: linear-gradient(180deg,#9a4cbc,#5d4cbc);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/pdf.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Sistemas públicos de gestión y el desarrollo del sistema administratívo Ley 489 de 1998
+              p Organización y funcionamiento de las entidades del orden nacional  
+            .col-sm-auto
+              a.boton.boton--b(:href="obtenerLink('downloads/Infografía-Acreditación-en-Salud2.pdf')" target="_blank" style="background-color:#42E0E6;color:#12263f!important;")
+                span(style="color:#12263f!important;") Ver infografía
+                i.fas.fa-file-download(style="color:#12263f!important;")
 
 </template>
 

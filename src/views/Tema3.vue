@@ -11,7 +11,6 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/K8kKm1DwHPY?list=PLkc5n6npRWkjeKyZAukb0KCO4qFB-r4ZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
 
     .titulo-segundo.mt-5
       #t_3_1.h4 3.1 Concepto
@@ -31,15 +30,16 @@
         p Las entidades a que se refiere el artículo 2 deberán contar con la certificación que expida la entidad competente, del cumplimiento de los requisitos mínimos obligatorios que les aplican, como condición para acceder a la acreditación.
 
     .titulo-segundo.mt-5
-      #t_3_2.h4 3.2 Ruta.
+      #t_3_2.h4 3.2 Ruta
 
+    p.mt-3 En el siguiente gráfico se muestra la ruta que debe seguir una entidad interesada en lograr la acreditación. 
 
-    .mt-5.fondo-azul-claro.p-4
+    .mt-4.fondo-azul-claro.p-4
       h6.text-center ¿Qué pasos se deben seguir para alcanzar la acreditación en salud?
       p.text-center El ciclo de la acreditación en salud contempla los siguientes  procesos
 
       .text-center
-        img.mt-3(src='@/assets/curso/tema3/1.svg' style="display:inline")
+        img.mt-3(src='@/assets/curso/tema3/1.png' style="display:inline")
 
     .titulo-segundo.mt-5
       #t_3_3.h4 3.3. Alcance
@@ -72,22 +72,12 @@
           .col-auto
             img(src='@/assets/curso/tema3/3.svg' style="display:inline")
           .col
-            p #[strong las Empresas de Medicina Prepagada.]
-        .row.mt-2
-          .col-auto
-            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
-          .col
             p #[strong Los Prestadores de Servicios de Salud.]
-        .row.mt-2
-          .col-auto
-            img(src='@/assets/curso/tema3/3.svg' style="display:inline")
-          .col
-            p #[strong Las Entidades Departamentales, Distritales y Municipales de Salud.]
 
     .titulo-segundo.mt-5
       #t_3_4.h4 3.4. Estándares
 
-    p.mt-4 Las instituciones que se encuentren en el proceso de preparación para la acreditación deberán postularse según la resolución 5095 de 2018 con el #[strong “manual de acreditación en salud ambulatorio y hospitalario de Colombia versión 3.1”].
+    p.mt-4 Las instituciones con servicios ambulatorios y hospitalarios que se encuentren en el proceso de preparación para la acreditación deberán postularse según la resolución 5095 de 2018 con el #[strong “manual de acreditación en salud ambulatorio y hospitalario de Colombia versión 3.1”].
 
     p.mt-3 En dicho manual se encuentran el grupo de estándares del proceso de atención al cliente asistencial, de direccionamiento, de gerencia, de gerencia de talento humano, de gerencia del ambiente físico, de gerencia de la información, de gestión de la tecnología y mantenimiento de la calidad.
 
@@ -95,47 +85,47 @@
       .py-4.py-md-5(titulo="Procesos" :icono="require('@/assets/curso/tema3/4.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            p.mt-4.p-5 Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que ha sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente, porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta.
+            p.mt-4.p-4 Cada grupo de estándares según el manual va precedido por un prólogo en el cual se explica para que ha sido diseñado cada uno, también se identifican con un código que los identifica según el grupo y subgrupo que se va a evaluar, algunos estándares incluyen adicionalmente, porque pueda que tengan condiciones particulares que deban ser tenidas en cuenta.
         
           .col-md-4
             figure
-              img(src='@/assets/curso/tema3/7.svg', alt='')
+              img(src='@/assets/curso/tema3/7.svg', alt='' style="max-width:200px;")
 
       .py-4.py-md-5(titulo="Procedimientos" :icono="require('@/assets/curso/tema3/5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            p.mt-4.p-5 El manual está diseñado para que la evaluación se realice por medio de un proceso con las siguientes características:
+            p.mt-4.p-4 El manual está diseñado para que la evaluación se realice por medio de un proceso con las siguientes características:
           
-            .p-5
+            .p-4
               button.btn.btn-primary(type='button' data-bs-toggle='modal' data-bs-target='#modalGrafica') Procedimientos
 
             #modalGrafica.modal.fade.modal-a(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
               .modal-dialog.modal-lg
                 .modal-content
                   .modal-header
-                    h5#exampleModalLabel.modal-title Grafica Manual de Diseño
+                    h5#exampleModalLabel.modal-title Procedimientos
                     button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
                   .modal-body.text-center
-                    img(src='@/assets/curso/tema3/10.svg' style="display:inline")
+                    img(src='@/assets/curso/tema3/10.png' style="display:inline")
                   .modal-footer
                     button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Cerrar
           .col-md-4
             figure
-              img(src='@/assets/curso/tema3/8.svg', alt='')
+              img(src='@/assets/curso/tema3/8.svg', alt='' style="max-width:200px;")
 
       .py-4.py-md-5(titulo="Herramientas" :icono="require('@/assets/curso/tema3/6.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            p.mt-4.p-5 Se toma como herramienta para la evaluación de los estándares en la postulación para obtener la acreditación, el manual de acreditación en salud ambulatoria y hospitalario de Colombia versión 3.1
+            p.mt-4.p-4 Se toma como herramienta para la evaluación de los estándares en la postulación para obtener la acreditación, el manual de acreditación en salud ambulatoria y hospitalario de Colombia versión 3.1
         
           .col-md-4
             figure
-              img(src='@/assets/curso/tema3/9.svg', alt='')
+              img(src='@/assets/curso/tema3/9.svg', alt='' style="max-width:200px;")
 
     .titulo-segundo.mt-5
       #t_3_5.h4 3.5. Entes acreditadores
 
-    p.mt-4 Según la resolución 2427 de 2014, para el sistema de acreditación en Colombia todos  aquellos que quieran ser entes acreditadores se deben inscribir al Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC, en el Registro Especial de Acreditadores en Salud, para lo cual se le otorgará el código identifica como entidad acreditadora a nivel nacional del Sistema Único de Acreditación en Salud.
+    p.mt-4 Según Decreto 903 de 2014, para el sistema de acreditación en Colombia todos aquellos que quieran ser entes acreditadores se deben inscribir en el Registro Especial de Acreditadores en Salud, de que trata el artículo 8 del mencionado decreto, para lo cual se le otorgará el código que lo identifica como entidad acreditadora a nivel nacional del Sistema Único de Acreditación en Salud.
 
     p.h6.mt-4 #[strong Las entidades que estén interesadas en ser acreditadores en salud deben cumplir los siguientes requisitos:]
 

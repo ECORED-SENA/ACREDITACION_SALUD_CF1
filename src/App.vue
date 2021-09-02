@@ -45,4 +45,7 @@ body
   z-index: 999999 !important
 .banner-principal__img img
     max-width: 282px !important
+    margin: 0 auto !important
+.banner-principal__img
+  padding:0px !important
 </style>

@@ -8,10 +8,10 @@
         .h3
           i.fas.fa-info
       .h3 Introducción
-    
+
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/U7UllD6V0eQ?list=PLkc5n6npRWkjeKyZAukb0KCO4qFB-r4ZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8khUnqmN-Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-2 El Subsistema Nacional de Calidad (SNCA) tiene como objetivo  establecer las condiciones obligatorias, la formulación, ejecución y seguimiento de las políticas en materia de normalización, reglamentación técnica, evaluación de la conformidad y metrología; está compuesto por instituciones públicas y privadas que realizan actividades de cualquier orden; para el sector salud, se establece el Sistema Obligatorio de Garantía de Calidad (SOGCS); entendido como el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que se desarrollan en el sector para generar, mantener y mejorar la calidad de los servicios de salud en el país. Este incluye los requisitos mínimos obligatorios para los agentes intervinientes. 
 

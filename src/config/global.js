@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Normatividad',
     descripcionCurso:
-      'El presente contenido pedagógico está dirigido a la contextualización, identificación y apropiación de la estructura y funcionamiento de los sistemas de calidad en el ámbito nacional el cual tiene un sistema propio en el sector salud, siendo parte de un renglón económico cuyo alcance corresponde al Sistema General de Seguridad Social en Salud (SGSSS)',
+      'El presente contenido pedagógico está dirigido a la contextualización, identificación y apropiación de la estructura y funcionamiento de los sistemas de calidad en el ámbito nacional el cual tiene un sistema propio en el sector salud, siendo parte de un renglón económico cuyo alcance corresponde al Sistema General de Seguridad Social en Salud (SGSSS).',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -48,7 +48,7 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: 'fas fa-play-circle',
             numero: '2.1',
             titulo: 'Concepto',
             hash: 't_2_1',
@@ -75,7 +75,7 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: 'fas fa-play-circle',
             numero: '3.1',
             titulo: 'Concepto',
             hash: 't_3_1',
@@ -95,7 +95,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Estandares',
+            titulo: 'Estándares',
             hash: 't_3_4',
           },
           {
@@ -154,33 +154,22 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Néstor Omar Correa Preciado',
-        cargo: 'Expertos temáticos.',
-        centro: 'Ministerio de Salud',
+        nombre: [
+          'Néstor Omar Correa Preciado',
+          'Cesar Roberto Ocaña Poveda',
+          'Jessica Lozano',
+        ],
+        cargo: ['Expertos temáticos', 'Asesores oficina calidad'],
+        centro: 'Ministerio de Salud y Protección Social.',
       },
       {
-        nombre: 'Cesar Roberto Ocaña Poveda',
-        cargo: 'Asesor oficina calidad',
-        centro: 'Ministerio de Salud',
-      },
-      {
-        nombre: 'Jessica Lozano',
-        cargo: 'Ministerio de Salud y Protección Social.',
-        centro: 'Ministerio de Salud',
-      },
-      {
-        nombre: 'María Fernanda Moreno Brand',
-        cargo: 'Profesionales Especializados SENA',
-        centro: 'Centro de Formación de Talento Humano en Salud',
-      },
-      {
-        nombre: 'Viviana Ruíz Vergara',
+        nombre: ['María Fernanda Moreno Brand', 'Viviana Ruíz Vergara'],
         cargo: 'Profesionales Especializados SENA',
         centro: 'Centro de Formación de Talento Humano en Salud',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Diseñador instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial',
       },
       {
@@ -197,46 +186,24 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte organizacional',
       },
       {
         nombre: 'Carlos Julián Ramírez Benítez',
-        cargo: 'Diseño web y Producción audiovisual',
+        cargo: 'Diseño web',
       },
       {
-        nombre: 'Zuleidy María Ruiz Torres',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Caceres',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Gilberto Junior Rodriguez Rodriguez',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Maria Carolina Tamayo',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Víctor Cardenas',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Carmen Martinez',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Arnulfo Beltrán Mojica',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Oleg Litvin',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Andrés Herrera',
+        nombre: [
+          'Zuleidy María Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Maria Carolina Tamayo',
+          'Víctor Cardenas',
+          'Carmen Martinez',
+          'Arnulfo Beltrán Mojica',
+          'Oleg Litvin',
+          'Andrés Herrera',
+        ],
         cargo: 'Producción audiovisual',
       },
       {
@@ -255,10 +222,7 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: [
-          'Validación y vinculación en plataforma LMS',
-          'Vinculación de recursos',
-        ],
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
@@ -340,7 +304,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Atención de Salud',
+      termino: 'Atención de salud',
       significado:
         'Se define como el conjunto de servicios que se prestan al usuario en el marco de los procesos propios del aseguramiento, así como de las actividades, procedimientos e intervenciones asistenciales en las fases de promoción y prevención, diagnóstico, tratamiento y rehabilitación que se prestan a toda la población.',
     },
@@ -361,7 +325,7 @@ export default {
         'Son los requisitos básicos de estructura y de procesos que deben cumplir los Prestadores de Servicios de Salud por cada uno de los servicios que prestan y que se consideran suficientes y necesarios para reducir los principales riesgos que amenazan la vida o la salud de los usuarios en el marco de la prestación del servicio de salud',
     },
     {
-      termino: 'Empresas administradoras de planes de beneficios. -EAPB-',
+      termino: 'Empresas administradoras de planes de beneficios EAPB',
       significado:
         'Se consideran como tales, las Entidades Promotoras de Salud del Régimen Contributivo y del Régimen Subsidiado (Administradoras del Régimen Subsidiado), Entidades Adaptadas y Empresas de Medicina Prepagada.',
     },
@@ -377,7 +341,7 @@ export default {
     },
     {
       termino:
-        'Sistema obligatorio de garantía de calidad de atención en salud del sistema general de seguridad social en salud -SOGCS-',
+        'Sistema obligatorio de garantía de calidad de atención en salud del sistema general de seguridad social en salud SOGCS',
       significado:
         'Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.',
     },
