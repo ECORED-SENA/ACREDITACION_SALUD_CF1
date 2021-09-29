@@ -95,7 +95,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              .h5.mb-0 SOGC DECRETO 1011 de 2016 Modificación en el decreto 780 de 2016
+              .h5.mb-0 SOGC DECRETO 1011 de 2006 compilado en el decreto 780 de 2016
               p Entidades responsables del funcionamiento  
             .col-sm-auto
               a.boton.boton--b(:href="obtenerLink('downloads/Infografía-Acreditación-en-Salud1.pdf')" target="_blank" style="background-color:#42E0E6;color:#12263f!important;")
